@@ -160,7 +160,9 @@ hr.cardBreak {
     background-color: #000000;
     text-align: center;
     flex-direction: column;
-    margin-top: 150px;
+    position: relative;
+    bottom: 0;
+    margin-top: 255px;
 }
 
 /* password text styping */
@@ -171,3 +173,5 @@ hr.cardBreak {
     margin-right: auto;
     width: 50%;
 }
+
+

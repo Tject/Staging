@@ -130,16 +130,17 @@ hr.cardBreak {
 /* puts the footer at the bottom of page */
 .footer {
     height: 50px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 0;
-    display: flex;
-    background-color: #000000;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 170px;
-    align-self: bottom;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  display: flex;
+  background-color: #000000;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  margin-top: 165px;
 }
 
 /* simple white box around text */
@@ -185,3 +186,11 @@ hr.cardBreak {
     border: 2px solid green;
   }
   /* END CONFIRM BUTTON BLOCK */
+
+  .goToTheBottom {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 35px;
+    flex-basis: auto;
+}

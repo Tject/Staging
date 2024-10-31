@@ -165,7 +165,10 @@ hr.cardBreak {
     background-color: #000000;
     text-align: center;
     flex-direction: column;
-    margin-top: 215px;
+    position: relative;
+    bottom: 0;
+    margin-top: 255px;
+    
 }
 
 /* gets rid of the underline in hypertext */

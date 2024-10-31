@@ -30,7 +30,8 @@
     text-align: center;
     flex-direction: column;
     margin-top: 25px;
-    align-self: bottom;
+    position: relative;
+    bottom: 0;
 }
 
 /* line break in page background */
@@ -191,4 +192,12 @@ body {
 .noLine:hover {
     position: relative;
     top: -1px;
+}
+
+.goToTheBottom {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 35px;
+    flex-basis: auto;
 }
